@@ -25,12 +25,16 @@ include_once('config.php');
 
 ?>
 
-<div class=" container  row   mt-5 d-flex  ">
-        <div class="col-6">
-          <h1 class='btn btn-primary'>DADKA SO DALBADAY  (ORDERS OR DELIVERY PEOPLE)</h1>
+<div class=" container-fluid  row   mt-5 d-flex  ">
+        <div class="container-c" style='  background-color: red;justify-content: center;
+align-items: center;color: white;
+    width: 100%;
+    height: 100px;   border-radius: 20px;  display: flex;   text-align: center;
+    margin-bottom: 20px;'>
+          <h1 class=''>DADKA SO DALBADAY  (ORDERS AND DELIVERED)</h1>
         </div>
         <!-- <div class="col-6">BBB</div> -->
-      </div>
+      
 
       <table class="table   table-striped  table-hover table-warning  ">
         <thead class="table-dark">
